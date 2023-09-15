@@ -1,0 +1,70 @@
+  
+      *{
+        margin: 1rem;
+        font-size: 1rem;
+      }
+      body{
+            background-image: linear-gradient (rgb (92, 100, 221), rgb (197, 150, 197));
+            
+        }
+
+      nav{
+            width: 100vw;
+            height :6vh ;
+            background-color:#34aadc;
+            text-align: center;
+            font-size: 4vh;
+        }
+      .cantaner{
+            background:#f35353;
+            margin: auto;
+            width: 90%;
+            height: 70vh;
+            padding: 1rem;
+            overflow-y: auto;
+        }
+        .message{
+            background-color: aqua;
+            padding: 1rem;
+            margin: 1rem ;
+            border-radius: 0.5rem;
+            border: 0.2rem solid black;
+            max-width: 40%;
+            
+        }
+        .left{
+            float: left;
+            clear: both;
+            /* border-bottom-left-radius: 3rem; */
+        }
+        .right{
+            float: right;
+            clear:both;
+            /* border-bottom-right-radius: 3rem; */
+        }
+        .send{
+          
+            margin: auto;
+            width: 90%;
+            height: 6vh;
+        }
+        #form{
+            width: 100%;
+        }
+        #input{
+            width: 79%;
+            height: 6vh ;
+            border: 0.2rem solid black;
+            border-radius: 0.3rem;
+            margin-right: 0;
+        }
+        #inputbutton{
+            width: 14%;
+            height: 6vh ;
+            border: 0.2rem solid black;
+            margin-left: 0;
+            border-radius: 0.3rem;
+            cursor: pointer;
+
+            
+        }
