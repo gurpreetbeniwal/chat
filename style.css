@@ -35,13 +35,13 @@
         .left{
             float: left;
             clear: both;
-           font-size: 4vh;
+           font-size: 3vh;
             /* border-bottom-left-radius: 3rem; */
         }
         .right{
             float: right;
             clear: both;
-           font-size: 4vh;
+           font-size: 3vh;
             /* border-bottom-right-radius: 3rem; */
         }
         .send{
