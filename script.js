@@ -37,7 +37,7 @@ if (input.value) {
      ///
   var item = document.createElement('div');
   item.classList.add('message');
-  item.classList.add('right');
+  item.classList.add('sent');
   item.textContent = `you : ${massageimp}`;
   messages.appendChild(item);
   ///
@@ -49,7 +49,7 @@ if (input.value) {
 socket.on('receive', data =>{
 var item = document.createElement('div');
 item.classList.add('message');
-item.classList.add('left');
+item.classList.add('received');
 item.textContent = `${data.name} : ${data.message}`;
 messages.appendChild(item); });
 
@@ -57,7 +57,7 @@ messages.appendChild(item); });
 socket.on('left', name =>{
   var item = document.createElement('div');
   item.classList.add('message');
-  item.classList.add('left');
+  item.classList.add('received');
   item.textContent = `left the chat :${name}`;
   messages.appendChild(item); });
 
