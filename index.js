@@ -19,6 +19,9 @@ app.get('/', (req, res) => {
   app.get('/script.js', (req, res) => {
     res.sendFile(__dirname + '/script.js');
   });
+  app.get('/sent.png', (req, res) => {
+    res.sendFile(__dirname + '/sent.png');
+  });
 
 io.on('connection', (socket) => {
     console.log('a user connected');
